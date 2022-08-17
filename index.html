@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <input type="text" class="output" placeholder="0" id="result">
+
+        <div class="all-btn">
+            <button class="clr" onclick="clrAll()">c</button>
+            <button onclick="del()">del</button>
+            <button onclick="numshow('/')">/</button>
+            <button onclick="numshow('7')">7</button>
+            <button onclick="numshow('8')">8</button>
+            <button onclick="numshow('9')">9</button>
+            <button onclick="numshow('*')">*</button>
+            <button onclick="numshow('4')">4</button>
+            <button onclick="numshow('5')">5</button>
+            <button onclick="numshow('6')">6</button>
+            <button onclick="numshow('-')">-</button>
+            <button onclick="numshow('1')">1</button>
+            <button onclick="numshow('2')">2</button>
+            <button onclick="numshow('3')">3</button>
+            <button class="plus" onclick="numshow('+')">+</button>
+            <button onclick="numshow('0')">0</button>
+            <button onclick="numshow('.')">.</button>
+            <button class="eql" onclick="calculate()">=</button>
+            
+        </div>
+
+    </div>
+
+    <script src="js/calculate.js"></script>
+</body>
+</html>
